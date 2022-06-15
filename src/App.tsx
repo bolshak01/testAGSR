@@ -3,7 +3,7 @@ import { FC } from "react";
 import { Routes, Route } from "react-router-dom";
 
 import { Main, Authorization, Settings } from "./pages";
-import { Header } from "./components";
+import { Footer, Header } from "./components";
 
 import './App.scss';
 
@@ -16,6 +16,7 @@ const App: FC = () => {
         <Route path="/auth" element={ <Authorization/> } />
         <Route path="/settings" element={ <Settings/> } />
       </Routes>
+      <Footer />
     </div>
   );
 }

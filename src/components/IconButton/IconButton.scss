@@ -2,8 +2,11 @@
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background-color: #f9f9fb;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  &.with-background {
+    background-color: #f9f9fb;
+  }
 }

@@ -1,0 +1,18 @@
+.registries {
+  background-color: #fff;
+  padding: 80px 115px;
+
+  .registries-header {
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+      font-size: 36px;
+      font-weight: 700;
+    }
+
+    .buttons {
+      display: flex;
+    }
+  }
+}
