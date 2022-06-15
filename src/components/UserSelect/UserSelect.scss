@@ -1,0 +1,20 @@
+.user-select {
+  display: contents;
+
+  .avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+
+  .dropdown {
+    display: flex;
+    align-items: center;
+
+    button {
+      background-color: #ffffff00;
+      border-color: #ffffff00;
+      color: #4d4d4f;
+    }
+  }
+}

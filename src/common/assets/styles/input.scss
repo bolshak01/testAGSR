@@ -1,0 +1,13 @@
+.input {
+  background: #F9F9FB;
+  border-radius: 5px;
+  padding: 0 15px;
+  border: 0;
+  height: 48px;
+  width: 270px;
+
+  &.large {
+    height: 56px;
+    width: 430px;
+  }
+}
